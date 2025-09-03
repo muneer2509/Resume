@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #eaeaea;
+  color: #333;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.zero {
+  width: 900px;               
+  background: white;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  padding: 10px;
+}
+
+.one {
+  display: flex;
+}
+
+.three {
+  width: 30%;
+  background: #8b1d2c;
+  color: white;
+  padding: 20px;
+}
+
+.three h2 {
+  margin: 15px 0 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+
+.three p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.four {
+  width: 70%;
+  padding: 20px;
+}
+
+.four1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8b1d2c;
+  color: white;
+  padding: 15px;
+}
+
+.four1 h1 {
+  font-size: 22px;
+}
+
+.four1 p {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.four1 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.four h2 {
+  color: #8b1d2c;
+  margin: 18px 0 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #8b1d2c;
+  padding-bottom: 4px;
+}
+
+.four h3 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.four p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.six {
+  margin: 10px 0;
+}
+
+.six p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.six1 {
+  width: 200px;
+  height: 6px;
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.six1 span {
+  display: block;
+  height: 100%;
+  background: #8b1d2c;
+}
+
+.seven {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.seven div {
+  font-size: 13px;
+  color: #8b1d2c;
+  font-weight: bold;
+}
+
+@media (min-width: 801px) {
+  .one {
+    flex-direction: row;
+  }
+  .three {
+    width: 30%;
+  }
+  .four {
+    width: 70%;
+  }
+  .four1 {
+    flex-direction: row;
+    text-align: left;
+  }
+  .four1 img {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .zero {
+    width: 100%;
+  }
+  .one {
+    flex-direction: column;
+  }
+  .three, .four {
+    width: 100%;
+  }
+  .four1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .four1 img {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .six1 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.one {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.five a:link,
+.five a:visited,
+.five a:active {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.five a:hover {
+    color: #0077b5;
+    text-decoration: underline;
+}
+.two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.five {
+  flex: 1;
+}
+.five p{
+    line-height: 0.5;
+}
+.four img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.three {
+  background-color: #e0e0e0; /* grey background */
+  color: #000; /* black text */
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+p, ul, li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
